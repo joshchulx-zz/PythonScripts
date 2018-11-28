@@ -1,8 +1,8 @@
 """Method number 1"""
 import os
-path = r"C:\Users\JoshPC\Desktop"
+path = r"C:\Users\Username\Desktop"
 
-file_name = os.path.join(path, "binds.cgi")
+file_name = os.path.join(path, "file.txt")
 my_file = open(file_name)
 my_file_contents = my_file.read()
 
@@ -13,7 +13,7 @@ print(my_file_contents)
 
 
 import os
-f =open('C:\\Users\\JoshPC\\Desktop\\test.txt', 'r')
+f =open('C:\\Users\\Username\\Desktop\\file.txt', 'r')
 
 file_data = f.read()
 
@@ -27,6 +27,6 @@ This will free up any system resources taken up by the file"""
 """ open a file, perform the operations in the block below the with statement (in this case read from the file) and afterwards Python closes it for us.
 No need to call f.close()!"""
 
-with open('C:\\Users\\JoshPC\\Desktop\\test.txt', 'r') as f:
+with open('C:\\Users\\username\\Desktop\\file.txt', 'r') as f:
     file_data = f.read()
 print(file_data)
